@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.alex.graphics.activity.CustomActivity"
+    tools:showIn="@layout/activity_custom">
+
+
+    <com.alex.applelogo.AppleLogo
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:exampleColor="#654EA3"
+        app:exampleDimension="48sp"
+        app:exampleDrawable="@drawable/ic_apple_logo"
+        app:exampleString="iCustomText" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alex.graphics.MainActivity">
+
+    <Button
+        android:id="@+id/nativeB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="Native"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/customB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/custom"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/openglB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/opengl"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvasAnim" />
+
+    <Button
+        android:id="@+id/canvasAnim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/canvas"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAnim" />
+
+    <Button
+        android:id="@+id/imageAnim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/image_anim"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ballAnim" />
+
+    <Button
+        android:id="@+id/ballAnim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/ball_anim"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/openCVB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="OpenCV"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/indexB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBack"
+        android:paddingEnd="@dimen/paddingL"
+        android:paddingStart="@dimen/paddingL"
+        android:text="@string/index"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

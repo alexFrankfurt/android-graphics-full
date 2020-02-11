@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Graphics</string>
+    <string name="ball_anim">Ball animation</string>
+    <string name="image_anim">Image animation</string>
+    <string name="canvas">Canvas</string>
+    <string name="opengl">OpenGL</string>
+    <string name="custom">Custom View</string>
+    <string name="index">Index Activity</string>
+    <string name="title_activity_custom">CustomActivity</string>
+    <string name="title_activity_sdkintersection">SDKIntersectionActivity</string>
+</resources>
