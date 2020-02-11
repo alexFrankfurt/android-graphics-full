@@ -17,5 +17,5 @@
 4. Create symbolic link ./app/src/main/jniLibs which points to \<OpenCV Installation folder>/sdk/native/libs
 5. To add openCV java sdk (from installed opencv):
     1. Android Studio: File > New > Import Module. Choose \<OpenCV Installation folder>/sdk/java
-    2. In imported module in build.gradle change apply plugin: 'com.android.application' to apply plugin: 'com.android.library' and remove applicationId
+    2. In imported module in build.gradle change `apply plugin: 'com.android.application'` to `apply plugin: 'com.android.library'` and remove applicationId
     3. In app/build.gradle change dependency :openCVSDK to new module name
