@@ -2,7 +2,7 @@ package com.alex.graphics.gl.native
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class GLJNIActivity : Activity() {
 

@@ -1,8 +1,8 @@
 package com.alex.graphics
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.alex.graphics.activity.BallActivity
 import com.alex.graphics.activity.CanvasActivity
 import com.alex.graphics.activity.CustomActivity
