@@ -187,12 +187,14 @@ extern "C" {
     JNIEXPORT void JNICALL Java_com_alex_graphics_gl_native_GLJNILib_step(JNIEnv * env, jobject obj);
 };
 
-JNIEXPORT void JNICALL Java_com_alex_graphics_gl_native_GLJNILib_init(JNIEnv * env, jobject obj,  jint width, jint height)
+extern "C" JNIEXPORT
+void JNICALL Java_com_alex_graphics_gl_native_GLJNILib_init(JNIEnv * env, jobject obj,  jint width, jint height)
 {
     setupGraphics(width, height);
 }
 
-JNIEXPORT void JNICALL Java_com_alex_graphics_gl_native_GLJNILib_step(JNIEnv * env, jobject obj)
+extern "C" JNIEXPORT
+void JNICALL Java_com_alex_graphics_gl_native_GLJNILib_step(JNIEnv * env, jobject obj)
 {
     renderFrame();
 }
