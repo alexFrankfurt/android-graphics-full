@@ -11,7 +11,7 @@
 
 # Setup instructions
 
-1. Built on Android Studio 3.6.1 + OpenCV 4.2.0. Currently targets api 29 (android 10).
+1. Built on Android Studio 2024 + OpenCV 4.2.0. Currently targets api 35 (android 15).
 2. To sync project run `File > Sync Project with Gradle Files`
 3. install opencv https://opencv.org/releases/ for android
 4. Create symbolic link ./app/src/main/jniLibs which points to \<OpenCV Installation folder>/sdk/native/libs
