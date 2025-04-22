@@ -28,6 +28,12 @@
             >
 
         </activity>
+        <activity android:name="com.example.myapplication.CanvasActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication"
+            >
+
+        </activity>
     </application>
 
 </manifest>

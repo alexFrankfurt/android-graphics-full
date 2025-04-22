@@ -42,6 +42,9 @@ class MainActivity : ComponentActivity() {
                             name = "Android",
                             modifier = Modifier.padding(innerPadding)
                         )
+
+                        Spacer(modifier = Modifier.height(16.dp)) // Space between button and greeting
+                        OpenCanvasButton()
                     }
                 }
             }
@@ -68,6 +71,21 @@ fun OpenBallButton() {
         Text("Open Ball Activity")
     }
 }
+
+
+
+@Composable
+fun OpenCanvasButton() {
+    val context = LocalContext.current
+
+    Button(onClick = {
+        val intent = Intent(context, CanvasActivity::class.java)
+        context.startActivity(intent)
+    }) {
+        Text("Open Canvas Activity")
+    }
+}
+
 
 
 @Preview(showBackground = true)
